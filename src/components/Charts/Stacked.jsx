@@ -1,7 +1,7 @@
 import React from 'react'
 import { ChartComponent, SeriesCollectionDirective, SeriesDirective, Inject, Legend, Category, StackingColumnSeries, Tooltip, Chart } from '@syncfusion/ej2-react-charts'
 import { stackedCustomSeries, stackedPrimaryXAxis, stackedPrimaryYAxis } from '../../data/dummy';
-const Stacked = ({width, height}) => {
+const StackedChart = ({width, height}) => {
   return (
     <ChartComponent
       width={width}
@@ -20,4 +20,4 @@ const Stacked = ({width, height}) => {
   )
 }
 
-export default Stacked
+export default StackedChart
